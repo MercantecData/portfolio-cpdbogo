@@ -1,1 +1,1 @@
-"# Casper N›rrisgaard Pedersen" 
+# Casper Noerrisgaard Pedersen 
