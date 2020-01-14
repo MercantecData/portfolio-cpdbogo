@@ -11,7 +11,7 @@ Du skal lave et projekt hvori du udvikler en app der afleveres i din portfolio l
 
 ##### Product description
 
-I will create an Flutter app for use with Bang & Olufsen products. The user should be able to:
+I will create a Flutter app for use with Bang & Olufsen products. The user should be able to:
 
 * Manage a list of his Bang & Olufsen devices
 * Control the devices
