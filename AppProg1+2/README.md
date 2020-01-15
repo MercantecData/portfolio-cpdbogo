@@ -13,6 +13,7 @@ Du skal lave et projekt hvori du udvikler en app der afleveres i din portfolio l
 
 I will create a Flutter app for use with Bang & Olufsen products. The user should be able to:
 
+
 * See a list of his Bang & Olufsen devices - 80% done, needs more work
 * Add new devices to the list - 80% done, needs more work
 * Customize the appearance of the app
