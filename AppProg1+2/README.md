@@ -13,13 +13,14 @@ Du skal lave et projekt hvori du udvikler en app der afleveres i din portfolio l
 
 I will create a Flutter app for use with Bang & Olufsen products. The user should be able to:
 
-* Manage a list of his Bang & Olufsen devices
+* See a list of his Bang & Olufsen devices - 80% done, needs more work
+* Add new devices to the list - 80% done, needs more work
+* Customize the appearance of the app
+* Manage and create user profiles
+* Manage and create sound profiles
 * Control the devices
 * Update the devices
-* Manage and create sound profiles
-* Manage and create user profiles
 * Assign sound profiles to user profiles
-* Customize the appearance of the app
 * Group speakers by physical location
 
 A screen will be made for displaying and managing a list of all your devices. Clicking a product should display more information about the specific produt and it's physical location.
