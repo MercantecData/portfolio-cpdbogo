@@ -14,6 +14,9 @@ class BeoProductPage extends State<ProductPage> {
       itemBuilder: (context, index) {
         return ListTile(
           title: Text(myProducts[index].name),
+          leading: CircleAvatar(
+            backgroundImage: AssetImage(myProducts[index].thumbnail),
+          ),
         );
       },
     );
@@ -55,7 +58,8 @@ class BeoProductPage extends State<ProductPage> {
                       } else {
                         myProducts.add(new BeoProduct(
                             beoProducts.products[index].name,
-                            beoProducts.products[index].type));
+                            beoProducts.products[index].type,
+                            beoProducts.products[index].thumbnail));
                       }
                     });
                   },
@@ -91,9 +95,9 @@ class BeoProductPage extends State<ProductPage> {
       body: _buildProductList(),
       floatingActionButton: FloatingActionButton.extended(
           onPressed: _pushAddProductScreen,
-          icon: Icon(Icons.speaker),
+          icon: Icon(Icons.music_note),
           backgroundColor: Colors.teal,
-          label: Text("Add/Remove device")),
+          label: Text("Discovered Devices")),
     );
   }
 

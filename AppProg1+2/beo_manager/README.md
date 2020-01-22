@@ -3,8 +3,8 @@
 I will create a Flutter app for use with Bang & Olufsen products. The user should be able to:
 
 
-* See a list of his Bang & Olufsen devices
-* Add new devices to the list
+* See a list of Bang & Olufsen devices discovered on current network
+* Choose which devices he wants on his own list
 * Customize the appearance of the app
 * Manage and create user profiles
 * Manage and create sound profiles
