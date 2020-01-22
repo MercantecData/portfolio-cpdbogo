@@ -13,9 +13,8 @@ Du skal lave et projekt hvori du udvikler en app der afleveres i din portfolio l
 
 I will create a Flutter app for use with Bang & Olufsen products. The user should be able to:
 
-
-* See a list of his Bang & Olufsen devices :heavy_check_mark:
-* Add new devices to the list :heavy_check_mark:
+* See a list of Bang & Olufsen devices discovered on current network :heavy_check_mark:
+* Choose which devices he wants on his own list :heavy_check_mark:
 * Customize the appearance of the app :heavy_check_mark: / Setting phone to darkmode will put App in darkmode. Might make appearance more customizable, if I'll have the time for it.
 
 * Manage and create user profiles :x:
