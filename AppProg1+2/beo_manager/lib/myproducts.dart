@@ -2,13 +2,35 @@ import 'package:flutter/material.dart';
 
 import './beoproducts.dart';
 import './usermanacgement.dart';
+  
 
-class BeoProductPage extends State<ProductPage> {
+  class BeoProductPage extends State<ProductPage> {
   List<Widget> _pages = [ProductPage(), ProductPage(), UserManagement()];
   BeoProducts beoProducts = new BeoProducts();
   List<BeoProduct> myProducts = new List<BeoProduct>();
+  
+  void productControl(index) {
+    showDialog(context: context, child:
+    new Dialog(
+      child: Container(
+        child: Row(
+          children: <Widget>[
+            CircleAvatar(backgroundImage: AssetImage(myProducts[index].thumbnail)),
+            Text(myProducts[index].productName),
+            Icon(Icons.skip_previous),
+            Icon(Icons.play_arrow),
+            Icon(Icons.pause),
+            Icon(Icons.skip_next)
+          ],
+        ),
+      )
+    )
+    );
+  }
 
   Widget _buildProductList() {
+    
+
     return ListView.builder(
       itemCount: myProducts.length,
       itemBuilder: (context, index) {
@@ -17,6 +39,7 @@ class BeoProductPage extends State<ProductPage> {
           leading: CircleAvatar(
             backgroundImage: AssetImage(myProducts[index].thumbnail),
           ),
+          onTap: () {productControl(index);}
         );
       },
     );

@@ -19,7 +19,7 @@ I will create a Flutter app for use with Bang & Olufsen products. The user shoul
 
 * Manage and create user profiles :x:
 * Manage and create sound profiles :x:
-* Control the devices :x:
+* Control the devices :heavy_check_mark: / Prev, pause, play, next
 * Update the devices :x:
 * Assign sound profiles to user profiles :x:
 * Group speakers by physical location :x:
