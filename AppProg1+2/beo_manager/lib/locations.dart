@@ -63,7 +63,6 @@ class LocationsPage extends State<Locations> {
                                 bool alreadyAdded = myLocations[index]
                                     .products
                                     .contains(myProducts[indexx]);
-                                print(alreadyAdded);
                                 if (alreadyAdded) {
                                   myLocations[index].products.remove(
                                       myLocations[index].products.singleWhere(
